@@ -14,7 +14,7 @@ busqueda.addEventListener('input', (e=>{
 /* 2.1 Tomar info de la API */
 
 function getDataApiMovies(){
-    fetch(`http://www.omdbapi.com/?apikey=da9668e3&s='${busquedaGuardada}'`)
+    fetch(`https://cors-anywhere.herokuapp.com/http://www.omdbapi.com/?apikey=da9668e3&s='${busquedaGuardada}'`)
     .then(respuesta=>{
 /*      console.log(respuesta.json()); */
         return respuesta.json();
