@@ -53,7 +53,7 @@ document.addEventListener("DOMContentLoaded", ()=>{
 });
 
 function defaultDataArray(){
-    fetch('http://www.omdbapi.com/?apikey=da9668e3&s=rocky')
+    fetch('https://cors-anywhere.herokuapp.com/http://www.omdbapi.com/?apikey=da9668e3&s=rocky')
     .then(respuesta=>{
         console.log(respuesta);
         console.log(respuesta.status);
