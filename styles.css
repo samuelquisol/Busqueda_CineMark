@@ -1,0 +1,13 @@
+html{
+    display: grid;
+    justify-content: center;
+}
+
+input{
+    width: 100%;
+}
+
+.card-text{
+    display: grid;
+    justify-content: center;
+}
